@@ -1,0 +1,32 @@
+{
+  "name": "nice-svg-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Convert design source files (Illustrator .ai / PDF) to clean SVG",
+  "bin": {
+    "nice-svg-generator": "src/cli.js"
+  },
+  "exports": {
+    ".": "./src/run.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "nice",
+    "svg",
+    "ai",
+    "illustrator",
+    "pdf",
+    "convert"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceprototypes/nice-svg-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niceprototypes/nice-svg-generator/issues"
+  },
+  "homepage": "https://github.com/niceprototypes/nice-svg-generator#readme"
+}
